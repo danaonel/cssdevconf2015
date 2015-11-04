@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>#CSSDevConf</title>
+
+		<meta name="description" content="SASS Functions">
+		<meta name="author" content="Daniela Popescu">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/night.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+    <style>
+    .talks li {
+      padding-bottom: 5px;
+    }
+   .talks em {
+     color: #e1ffb2;
+   }
+    .talks li li {
+      padding-bottom: 3px;
+      font-size: 0.7em;
+      margin-left: 45px;
+    }
+    </style>
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+	
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h3>#CSSDevConf</h3>
+          
+          <p>Long Beach, CA<br>
+            October 25th - 28th<br>
+            Queen Mary Boat</p>
+          <p><img src="img/location.jpg"></p>
+				</section>
+					
+				<section>
+          <section>
+            <div class="talks">
+              <h2>Talks</h2>
+              <p><em>Light green</em> means I attended the talk.</p>
+            </div>
+          </section>
+          <section>
+            <div class="talks day1">
+              <p>Monday, October 26th</p>
+    					<ul>
+    						<li><em>9:00am Opening Keynote - Sara Soueidan</em></li>
+    						<li><em>10:00am Cracking the SVG Code - Brenda Storer</em></em>
+                  <ul>
+                    <li>acCeSSibility - Heather Migliorisi</li>
+                    <li>Deep Dive into Animation - Estelle Weyl</li>
+                  </ul>
+                </li>
+                <li><em>11:00am Smoothly Migrating to Flexbox - Charlie Park</em></em>
+                  <ul>
+                    <li>Creative Typography with SVG - Brenna O'Brien</li>
+                    <li>React inline Styles and the Future of CSS - Alex Lande</li>
+                  </ul>
+                </li>
+                <li><em>12:00pm Fight the Zombie Pattern Library - Marcelo Somers</em></em>
+                  <ul>
+                    <li>Designing Complex SVG Animations - Sarah Drasner</li>
+                    <li>Web Components and the Future of Modular CSS - Philip Walton</li>
+                  </ul>
+                </li>
+                <li><em>2:00pm The Dark ARts of Light Speed - Henri Helvetica</em></em>
+                  <ul>
+                    <li>Container-based RWD with Element Queries - Philip Zastrow</li>
+                    <li>Exploring fractals in CSS - Gregor Adams</li>
+                  </ul>
+                </li>
+                <li><em>3:00pm Visual Regression Testing - Micah Godbolt</em></em>
+                  <ul>
+                    <li>No Pain No Gain - stacy Kvernmo</li>
+                    <li>Responsible Data Visualization - Amanda Cheung</li>
+                  </ul>
+                </li>
+                <li><em>4:00pm Closing Keynote - Jina Bolton</em></li>
+    					</ul>
+            </div>
+          </section>
+          <section>
+            <div class="talks day2">
+              <p>Tuesday, October 27th</p>
+    					<ul>
+    						<li>9:00am Opening Keynote - Val Head</li>
+    						<li><em>10:00am CSS Architecture - Jonathan Snook</em></em>
+                  <ul>
+                    <li>DOM Features You Didn't Know existed - Louis Lazaris</li>
+                    <li>Level 4 Selectors: The Good, The Weird, and the awesome - Jonathan Cutrell</li>
+                  </ul>
+                </li>
+                <li><em>11:00am SMACSS Your SASS Up - Mina Markham</em></em>
+                  <ul>
+                    <li>Bower Power - Eric Carlisle</li>
+                    <li>Fostering and "Open Source" Front-end Culture - Kevin Lamping</li>
+                  </ul>
+                </li>
+                <li>Wrap Up Panel</li>
+                <li><em>2:00pm Creative Typography - Brenna O'Brien'</em></em>
+                  <ul>
+                    <li>Fight the Zombie Pattern Library - Marcelo Somers</li>
+                    <li>Fostering and "Open Source" Front-end Culture - Kevin Lamping</li>
+                  </ul>
+                </li>
+                <li><em>3:00pm Web Components and the Future of Modular CSS - Philip Walton</em></em>
+                  <ul>
+                    <li>Exploring Fractals - Gregor Adams</li>
+                    <li>Designing Complex SVG Animations - Sarah Drasner</li>
+                  </ul>
+                </li>
+                <li><em>4:00pm Closing Keynote - Dave Rupert</em></li>
+    					</ul>
+            </div>
+          </section>
+				</section>
+        
+        <section>
+          <section>
+            <h2>Highlights</h2>
+          </section>
+          <section>
+            <h3>Sara Souidan's Keynote and SVG wisdom</h3>
+            <p><img src="img/sara.jpg"></p>
+          </section>
+          <section>
+            <h3>Gender Ratio among presenters</h3>
+            <p>50% women</p>
+            <p><img src="img/speakers.jpg"></p>
+          </section>
+          <section>
+            <h3>A lot of designers among presenters</h3>
+            <p>Reminder that front end devs should not code in a bubble.</p>
+            <p><img src="img/tshirt.png"></p>
+          </section>
+          <section>
+            <h3>We are awesome</h3>
+            <p>Reassurance that we are quite up to date with CSS news and technology</p>
+          </section>
+          <section>
+            <h3>Bumping into Travis</h3>
+          </section>
+          <section>
+            <h3>The location</h3>
+            <p>Queen Mary Boat is legendary</p>
+            <p><img src="img/qmb.jpg"></p>
+          </section>
+        </section>
+        
+        <section>
+          <section>
+            <h3>Take-aways</h3>
+          </section>
+          <section>
+            <h3>Everything Sara Soueidan talked about SVG</h3>
+          </section>
+          <section>
+            <h3>Flexbox</h3>
+            <ul>
+              <li>it's becoming widely supported and it's the future</li>
+              <li>justify-content vs align-items</li>
+              <li>excellent demonstrations (Charlie Park is an excellent speaker)</li>
+            </ul>
+            <p><img src="img/flexbox.jpg"></p>
+          </section>
+          <section>
+            <h3>Pattern Libraries</h3>
+            <ul>
+              <li>Think design systems, not pages</li>
+              <li>The culture around pattern libraries needs to change (educate designers, increase collaboration between devs and designers, have the entire team get involved)</li>
+              <li>Levels of maturity of pattern libraries (5 levels from static styleguide to automated pattern library)</li>
+              <li>Pattern library tools - <em>npm install patternpack</em></li>
+            </ul>
+            <p><img src="img/pattern-library.jpg"></p>
+          </section>
+          <section>
+            <h3>Visual Regression testing</h3>
+            <ul>
+              <li>Various regression testing tools demos</li>
+              <li>phanton.js, webdriver.io, wraith.io, casper.js</li>
+            </ul>
+            <p><img src="img/testing.jpg"></p>
+          </section>
+          
+          <section>
+            <h3>SMACSS</h3>
+            <ul>
+              <li>Excellent breakdown of reasons on why we should write modular CSS</li>
+              <li>CSS should be scalable, encapsulated, predictable</li>
+              <li>The CSS should be organized in tiny bootstraps for each component</li>
+              <li>Conclusions: categorize CSS rules, use meaningful names, use shallow selectors</li>
+            </ul>
+            <p><img src="img/smacss.jpg"></p>
+          </section>
+          <section>
+            <h3>Each of us can be a speaker</h3>
+            <p><img src="img/helm.jpg"></p>
+          </section>
+        </section>
+	
+        <section>
+          <h2>Thank you!</h2>
+          <p><img src="img/ty.jpg"></p>
+        </section>
+        
+        <section>
+          <h2>Slides</h2>
+          <ul>
+            <li>Sara Souiedan <a href="https://twitter.com/SaraSoueidan" target="_blank">@SaraSoueidan</a> - <a href="http://www.slideshare.net/SaraSoueidan/svg-for-web-designers-and-developers" target="_blank">Slides</a></li>
+            <li>Brenda Storer <a href="https://twitter.com/brendamarienyc" target="_blank">@brendamarienyc</a> - <a href="http://brendastorer.com/presentations/2015-10-CSSDevConf-SVGs/#intro" target="_blank">Slides</a></li>
+            <li>Charlie Park <a href="https://twitter.com/charliepark" target="_blank">@charliepark</a> - no slides available</li>
+            <li>Marcelo Somers <a href="https://twitter.com/marcelosomers" target="_blank">@marcelosomers</a> - <a href="https://speakerdeck.com/marcelosomers/fight-the-zombie-pattern-library-css-dev-conf-2015" target="_blank">Slides</a></li>
+            <li>Henri Helvetica <a href="https://twitter.com/HenriHelvetica" target="_blank">@HenriHelvetica</a> - no slides available</li>
+            <li>Micah Godbolt <a href="https://twitter.com/micahgodbolt" target="_blank">@micahgodbolt</a> - <a href="https://www.dropbox.com/s/yfn2vw8bjfmyyiu/visual-regression.pdf?dl=0" target="_blank">Slides</a></li>
+            <li>Jonathan Snook <a href="https://twitter.com/snookca" target="_blank">@snookca</a> - no slides available</li>
+            <li>Mina Markham <a href="https://twitter.com/MinaMarkham" target="_blank">@MinaMarkham</a> - <a href="http://talks.mina.codes/smacss-slides/#/" target="_blank">Slides</a></li>
+            <li>Brenna O'Brien <a href="https://twitter.com/brnnbrn" target="_blank">@brnnbrn</a> - <a href="http://talks.brennaobrien.com/svg-typography/#/" target="_blank">Slides</a></li>
+            <li>Phil Walton <a href="philwalton" target="_blank">@philwalton</a> - <a href="https://github.com/philipwalton/talks" target="_blank">Slides</a></li>
+          </ul>
+        </section>
+        
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				 //parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-11.jpg',
+         parallaxBackgroundImage: 'img/parallax10.jpg',
+				 parallaxBackgroundSize: '2560px 1600px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
